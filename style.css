@@ -18,6 +18,11 @@ body{
     overflow-x:hidden;
 }
 
+a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
 header{
     position: sticky;
     top: 0;
@@ -185,6 +190,17 @@ iframe{
     border-radius: 999px;
     background: rgba(255,255,255,.06);
     border: 1px solid rgba(255,255,255,.10);
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+    font-size: 10px;
 }
 
 @media (min-width: 720px){
