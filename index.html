@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <title>Embed YouTube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="controls">
+      <input id="ytUrl" type="text" placeholder="https://www.youtube.com/watch?v=..." />
+      <button id="loadBtn">Carica</button>
+    </div>
+
+    <div class="player-card">
+      <div class="video-wrap">
+        <iframe id="player" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="msg" class="info" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <script src="script.js">
+  </script>
+</body>
+</html>
+
