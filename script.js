@@ -28,7 +28,7 @@ function estraiYouTubeID(url) {
     btn.addEventListener('click', () => {
       const id = estraiYouTubeID(input.value.trim());
       if (id) {
-        iframe.src = `https://www.youtube.com/embed/${id}`;
+        iframe.src = `https://www.youtube-nocookie.com/embed/${id}`;
         setMessage('');
       } else {
         setMessage('ID video non trovato. Controlla il link.', true);
