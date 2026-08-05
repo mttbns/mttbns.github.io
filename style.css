@@ -23,7 +23,7 @@ a {
     text-decoration: underline;
 }
 
-header{
+/*header{
     position: sticky;
     top: 0;
     z-index: 10;
@@ -61,14 +61,18 @@ header{
     justify-content:center;
 }
 .btn:active{ transform: translateY(1px) scale(.99); filter: brightness(.98); }
+*/
 
 main{
-    max-width: 980px;
+    height: 95vh;
+    max-width: 95vw;
+    aspect-ratio: 1.5 / 1;
     margin: 0 auto;
     padding: 18px 16px 28px;
     display:flex;
     flex-direction:column;
     gap: 14px;
+    justify-content: center;
 }
 
 .card{
