@@ -1,3 +1,11 @@
+// The wake lock.
+let wakeLock = null;
+try {
+  wakeLock = navigator.wakeLock.request();
+} catch (err) {
+  console.error(`${err.name}, ${err.message}`);
+}
+
 function detectDarkMode() {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const body = document.body;
